@@ -1,5 +1,5 @@
 # My solutions LeetCode
- [LeetCode Patterns](https://github.com/stephenranaud/leetcode-my-solutions/blob/main/leetcode.png)
+ ![LeetCode Patterns](https://github.com/stephenranaud/leetcode-my-solutions/blob/main/leetcode.png)
 
 ## Table of Contents
 
