@@ -1,5 +1,5 @@
 # My solutions LeetCode | [LeetCode](https://leetcode.com/problemset/all/)
-![Language](https://img.shields.io/badge/language-Javascript%20%2F%20Modern%20Java-orange.svg)&nbsp;
+![Language](https://img.shields.io/badge/language-Javascript%20%20Modern%20%2FJava-orange.svg)&nbsp;
 ![LeetCode Patterns](https://github.com/stephenranaud/leetcode-my-solutions/blob/main/leetcode.png)&nbsp;
 This depot is for me but also for all the people who want to improve or continue to practice
 
