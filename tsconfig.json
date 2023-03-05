@@ -1,15 +1,22 @@
 {
 	"compilerOptions": {
-		"outDir": "./dist",
+		"outDir": "./typescript/dist",
+		"rootDir": "./typescript/src",
 		"target": "ES6",
-		"module": "ESNext",
+		"module": "Node16",
 		"noImplicitAny": true,
-		"baseUrl": "."
+		"strict": true,
+		"esModuleInterop": true,
+		"moduleResolution": "node",
+		"resolveJsonModule": true,
+		"baseUrl": ".",
 	},
 	"include": [
-		"./src"
+		"typescript/src",
+		"typescript/tests/**/*.ts"
 	],
 	"exclude": [
-		"node_modules"
+		"node_modules",
+		".vscode"
 	]
 }

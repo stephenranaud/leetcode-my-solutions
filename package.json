@@ -2,10 +2,10 @@
   "name": "leetcode-solutions",
   "version": "1.0.0",
   "description": "",
-  "main": "./dist/main.js",
+  "main": "./typescript/dist/main.js",
   "scripts": {
-    "dev": "tsc ./src/main.ts --watch",
-    "build": "",
+    "dev": "nodemon",
+    "build": "rimraf ./build && tsc",
     "test": "",
     "lint": "eslint --ignore-path .eslintignore --ext .js,.ts .",
     "lint:fix": "eslint --fix .",
@@ -15,11 +15,15 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/node": "^18.13.0",
     "@typescript-eslint/eslint-plugin": "^5.51.0",
     "@typescript-eslint/parser": "^5.51.0",
     "eslint": "^8.33.0",
     "eslint-config-prettier": "^8.6.0",
+    "nodemon": "^2.0.20",
     "prettier": "^2.8.4",
+    "rimraf": "^4.1.2",
+    "ts-node": "^10.9.1",
     "tsc": "^2.0.4",
     "typescript": "^4.9.5"
   }

@@ -1,0 +1,6 @@
+{
+  "watch": ["typescript/src"],
+  "ext": ".ts,.js",
+  "exec": "ts-node typescript/src/main.ts",
+  "ignore": ["*.test.js", "**/fixtures/**"]
+}
